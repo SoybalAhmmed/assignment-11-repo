@@ -86,35 +86,5 @@
     "supplier":"rokomari",
     "img": "https://img.freepik.com/free-psd/magazine-mockup_358694-3235.jpg?w=740&t=st=1648281933~exp=1648282533~hmac=df245a11bedb4385cd6a4964cfe16a88dbb328cc07feefaeecd0f5407ef51f0b"
     
-  },
- {
-    "id": 10,
-    "name": "Book 10",
-    "price": 240,
-    "quantity":3,
-    "description":"Reading Book Is a good Habit",
-    "supplier":"rokomari",
-    "img": "https://img.freepik.com/free-psd/softcover-book-cover-mockup_337857-305.jpg?w=740"
-    
-  },
- {
-    "id": 11,
-    "name": "Book 11",
-    "price": 330,
-    "quantity":3,
-    "description":"Reading Book Is a good Habit",
-    "supplier":"rokomari",
-    "img": "https://img.freepik.com/free-psd/softcover-book-covers-mockup_337857-306.jpg?w=740&t=st=1648282014~exp=1648282614~hmac=dc16f6076d20e41bc15c0a64201a70bca186ea2d5ffb215ba41d1cb089703d83"
-    
-  },
- {
-    "id": 12,
-    "name": "Book 12",
-    "price": 320,
-    "quantity":3,
-    "description":"Reading Book Is a good Habit",
-    "supplier":"rokomari",
-    "img": "https://img.freepik.com/free-psd/magazine-plant-assortment-flat-lay_23-2148918355.jpg?w=740&t=st=1648282049~exp=1648282649~hmac=799e5876c6de0acc4906736a8bc11c024e4a3f1035f55fd70acdf9ae826beb61"
-    
-  }  
+  } 
 ]

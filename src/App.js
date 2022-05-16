@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>  
         <Route path="/manageitems" element={<ManageItems></ManageItems>}></Route>  
-        <Route path='/service/:serviceId' element={
+        <Route path='/inventory/:inventoryId' element={
            <RequireAuth>
              <ServiceDetail></ServiceDetail>
            </RequireAuth>}></Route>

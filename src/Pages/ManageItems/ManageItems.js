@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Service from '../Home/Service/Service';
+import Inventory from '../Home/Inventory/Inventory';
 import './ManageItems.css';
 
 const ManageItems = () => {
@@ -15,11 +15,11 @@ const ManageItems = () => {
         <div  className="services-container">
             
             {
-                manageItems.map(service => <Service
-                    key={service.id}
-                    service={service}
+                manageItems.map(inventory => <Inventory
+                    key={inventory.id}
+                    inventory={inventory}
                 >
-                </Service>)
+                </Inventory>)
             }
         </div>
     );

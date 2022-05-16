@@ -1,13 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Service.css';
+import './Inventory.css';
 
-const Service = ({service}) => {
-    const {id,name, img, description, price,quantity,supplier} = service;
+const Inventory = ({inventory}) => {
+    const {id,name, img, description, price,quantity,supplier} = inventory;
     const navigate = useNavigate();
 
     const navigateToServiceDetail = id =>{
-        navigate(`/service/${id}`);
+        navigate(`/inventory/${id}`);
     }
     
     return (
@@ -23,4 +23,4 @@ const Service = ({service}) => {
     );
 };
 
-export default Service;
+export default Inventory;

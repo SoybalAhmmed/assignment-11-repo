@@ -5,10 +5,10 @@ import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 
 const RequireAuth = ({children}) => {
-    const [user] = useAuthState(auth);
+    const [user,loading] = useAuthState(auth);
     const location = useLocation();
 
-    if(Loading){
+    if(loading){
         return <Loading></Loading>
     }
 

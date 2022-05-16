@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Service from '../Service/Service';
+import Inventory from '../Inventory/Inventory';
 import { useNavigate } from 'react-router-dom';
 import './Services.css';
 
@@ -23,11 +23,12 @@ const Services = () => {
         <h1 className='text-primary text-center mt-5'> Our Services</h1>
         <div className="services-container">
         {
-            services.slice(0,6).map(service => <Service
-                key={service.id}
-                service={service}
+            services.slice(0,6).map(inventory => <Inventory
+                key={inventory.id}
+                inventory={inventory}
             >
-            </Service>)
+            </Inventory>
+            )
         }
         <button className='show-detail' onClick={showDetail}>Manage Inventories</button>
         </div>

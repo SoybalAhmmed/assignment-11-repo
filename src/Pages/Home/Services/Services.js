@@ -23,7 +23,7 @@ const Services = () => {
         <h1 className='text-primary text-center mt-5'> Our Books</h1>
         <div className="services-container">
         {
-            services.map(inventory => <Inventory
+            services.slice(0,6).map(inventory => <Inventory
                 key={inventory._id}
                 inventory={inventory}
             >

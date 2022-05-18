@@ -6,7 +6,7 @@ const Favourite = () => {
         <div>
         <div className='home-area'>
             <div className='home-left'>
-                <h1 className='h1'>Best Seller  Book</h1>
+                <h1 className='h1'>Favourite  Book</h1>
                 
                 <p>This beautifully illustrated book tells the heartwarming story of a little girl and a duckling, who both grow to understand what it means to care for each other as they learn that love is as much about letting go as it is about holding on</p>
             </div>

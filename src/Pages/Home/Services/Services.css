@@ -5,8 +5,8 @@
 }
 
 /* make services responsive */
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:576px){
     .services-container{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }

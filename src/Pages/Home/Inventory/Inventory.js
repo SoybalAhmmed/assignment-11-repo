@@ -18,7 +18,7 @@ const Inventory = ({inventory}) => {
             <p>quantity:{quantity}</p>
             <p>supplier name:{supplier}</p>
             <p><small>{description}</small></p>
-            <button onClick={() => navigateToServiceDetail(_id)} className='btn btn-primary'>Book: {name}</button>
+            <button onClick={() => navigateToServiceDetail(_id)} className='btn btn-primary'>Manage</button>
         </div>
     );
 };

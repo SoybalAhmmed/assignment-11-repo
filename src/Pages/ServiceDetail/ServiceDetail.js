@@ -18,7 +18,14 @@ const ServiceDetail = () => {
         <div>
             <h2>Welcome to detail: {service.name}</h2>
             <div className='text-center'>
-                <Link to="/checkout">
+            <img className='w-25' src={service.img} alt="" />
+            <h2>{service.name}</h2>
+            <p>Price: {service.price}</p>
+            <p>quantity:{service.quantity}</p>
+            <p>supplier :{service.supplier}</p>
+            <p><small>{service.description}</small></p>
+            <button className='btn btn-primary m-2'>Delivered</button>
+                <Link to={`/checkout/${inventoryId}`}>
                     <button className='btn btn-primary'>Proceed Checkout</button>
                 </Link>
             </div>

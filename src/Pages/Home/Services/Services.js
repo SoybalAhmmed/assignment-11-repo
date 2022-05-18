@@ -14,13 +14,13 @@ const Services = () => {
 
     const navigate = useNavigate()
     const showDetail =() =>{
-          navigate('/manageitems')
+          navigate('/managebooks')
     }
 
     return (
         <div id="services" className='container'>
         <div className="row">
-        <h1 className='text-primary text-center mt-5'> Our Services</h1>
+        <h1 className='text-primary text-center mt-5'> Our Books</h1>
         <div className="services-container">
         {
             services.map(inventory => <Inventory
@@ -32,7 +32,7 @@ const Services = () => {
         }
         
         </div>
-        <button className='show-detail w-25' onClick={showDetail}>Manage Inventories</button>
+        <button className='show-detail w-50' onClick={showDetail}>Manage Inventories</button>
         </div>
     </div>
     );
